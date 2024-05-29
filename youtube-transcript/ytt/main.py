@@ -4,7 +4,7 @@ from langchain_community.document_loaders import YoutubeLoader
 
 def main():
     if len(sys.argv) <= 1:
-        print("YouTube Transript: Please provide a video url as first argument", file=sys.stderr)
+        print("YouTube Transcript: Please provide a video url as first argument", file=sys.stderr)
         sys.exit(1)
 
     url = sys.argv[1]
